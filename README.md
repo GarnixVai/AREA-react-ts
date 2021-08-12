@@ -66,6 +66,6 @@ When the web starts, the app will show the home page with three icons:
 
 ## Unit Test Problem
 - Tool: jest
-- The computer player is randomed inside directly when the game component is redirected/page refreshed. It's very danger to use *setState* in the unit test here. Originally the test cases should involve the 6 conditions (scissor/paper/rock win, scissor/paper/rock draw). However, the mock value of the robotic value is somehow stucked(still finding the solutions)
+- The computer player is randomed inside directly when the game component is redirected/page refreshed. It's very danger to use *setState* in the unit test here. Originally the test cases should involve the 6 conditions (scissor/paper/rock win, scissor/paper/rock draw). However, the mock value of the robotic value is somehow stucked(still trying to find the solutions)
 
 
