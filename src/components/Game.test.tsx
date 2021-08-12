@@ -45,10 +45,10 @@ describe('Game', function () {
   it('game rule case #1', ()=>{
     const onChange = jest.fn();
     act(() => {
-      render(<Game mode={false} score={0} userChoice={"scissors"} setScore={onChange} />, container);
+      render(<Game mode={false} score={0} userChoice={"rock"} setScore={onChange} />, container);
     });
     const information = document.getElementsByTagName("pre")[0];
-    expect(information.textContent).toContain("Your Choice:scissors");
+    expect(information.textContent).toContain("Your Choice:rock");
 
   });
 

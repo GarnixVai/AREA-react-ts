@@ -63,3 +63,9 @@ When the web starts, the app will show the home page with three icons:
     - On the top-right corner, there is a score to record how many points you get.
     - Calculation: when winning, the score would add up by 1, when losing, the score would decrase(-1), if it's a draw, the score would not change.
 
+
+## Unit Test Problem
+- Tool: jest
+- The computer player is randomed inside directly when the game component is redirected/page refreshed. It's very danger to use *setState* in the unit test here. Originally the test cases should involve the 6 conditions (scissor/paper/rock win, scissor/paper/rock draw). However, the mock value of the robotic value is somehow stucked(still finding the solutions)
+
+
