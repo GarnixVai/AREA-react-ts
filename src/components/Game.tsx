@@ -6,8 +6,8 @@ import "../styles/game.scss";
 interface GameProps {
   mode?: Boolean;
   score?: Number;
-  userChoice: any;
-  setScore: any;
+  userChoice?: any;
+  setScore?: any;
 }
 
 
@@ -18,7 +18,6 @@ const Game: React.FC<GameProps> = ({ mode, score, userChoice, setScore }) => {
   const [house, setHouse] = useState("");
   const [player, setPlayer] = useState("");
   const [playerWin, setPlayerWin] = useState("");
-  const [counter, setCounter] = useState(0);
   // In typescript, this could be done by enum
   const MapDict: any = {
     scissors: 1,
