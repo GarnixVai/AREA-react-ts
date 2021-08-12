@@ -1,0 +1,19 @@
+@import "./variables";
+@import "./style";
+
+.play{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    div {
+        @include hoverEvent();
+        color: $iconColor;
+        display: flex;
+        width: 10vw;      
+
+    }
+    span {
+        width: 40vw;
+    }
+}

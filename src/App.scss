@@ -1,31 +1,50 @@
+@import "./styles/variables";
+@import "./styles/style";
 .App {
   text-align: center;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-size: $titleFontSize;
+  color: $textColor;
+}
+.top-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content:  space-between;
+  height: 10vh;
+  .mode{
+    width: 10%;
+    @include flexEvenly();
+    span {
+      @include hoverEvent();
+      width: 100px;
+      border: none;
+      cursor: pointer;
+      p {
+        @include flexEvenly();
+      }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    }
+
+  }
+}
+.container {
+  display: table;
+  position: relative;
+  top: 200px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.middle{
+  display: table-cell;
+  vertical-align: middle;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {

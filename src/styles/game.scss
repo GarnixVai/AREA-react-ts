@@ -1,0 +1,13 @@
+@import "../styles/style";
+@import "../styles/variables";
+.icon{
+    @include hoverEvent();
+    color: $iconColor;
+    margin-top: 5%;
+}
+.info{
+   font-size: contentFontSize;
+   background-color: aliceblue;
+   padding: 1em;
+
+}
