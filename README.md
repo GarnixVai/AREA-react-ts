@@ -46,7 +46,13 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Game Play
-When the web starts, the app will show the home page with three icons: Scissors, Rock and Paper.
+When the web starts, the app will show the home page with three icons: 
+- Rules: 
+    -  Paper beats rock 
+    -  Rock beats scissors 
+    -  Scissors beats paper 
+    -  If the two choices are the same, then it's a tie 
+    -  The user should be able to play a new game every time. Scissors, Rock and Paper.
 - Default Mode: Player vs Computer
 - How to Play:
     - Choose the Scissors/Paper/Rock icon (if the mode is manual).
