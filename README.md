@@ -46,14 +46,14 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Game Play
-When the web starts, There will show the home page with three icons: Scissors, Rock and Paper
+When the web starts, the app will show the home page with three icons: Scissors, Rock and Paper.
 - Default Mode: Player vs Computer
 - How to Play:
     - Choose the Scissors/Paper/Rock icon (if the mode is manual).
     - Click play again icon(restart) to enter the next game.
-    - If the mode is **Computer vs Computer**, you don't have to do anything except click the play again icon(restart) to enter the next game
-- Settings: On the left corner, it showed what play mode you currently stayed. You could switch the mode from **Player vs Computer** to **Computer vs Computer**
+    - If the mode is *Computer vs Computer*, you don't have to do anything except click the play again icon(restart) to enter the next game
+- Settings: On the top-left corner, it showed what play mode you currently stayed. You could switch the mode from *Player vs Computer* to *Computer vs Computer*
 - Score: 
-    - On the right corner, there is a score to record how many points you get.
+    - On the top-right corner, there is a score to record how many points you get.
     - Calculation: when winning, the score would add up by 1, when losing, the score would decrase(-1), if it's a draw, the score would not change.
 
